@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+
+hr { 
+background-color: #CCCCCC;
+width: 100px;
+}
+
+.flex-container {
+ display: flex;
+ flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-image {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .flex-description {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+.flex-image {
+ flex: 50%;
+ padding-left: 250px;
+}
+
+.flex-description {
+ flex: 50%;
+ padding-right: 250px;
+}
+
+.price {
+  font-weight: 600;
+  color: #222222;
+}
