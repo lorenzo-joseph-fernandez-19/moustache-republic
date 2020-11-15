@@ -56,7 +56,8 @@ class Card extends Component {
                     <td> 
                         <img src={Image} height="100px" />
                     </td>
-                    <td colspan="2">Classic Tee
+                    <td>
+                        <tr>Classic Tee</tr>
                         <tr>1x <strong>$75.00</strong></tr>
                         <tr>Size: S</tr>
                     </td>
@@ -65,7 +66,8 @@ class Card extends Component {
                 <td> 
                         <img src={Image} height="100px" />
                     </td>
-                    <td colspan="2">Classic Tee
+                    <td>
+                        <tr>Classic Tee</tr>
                         <tr>3x <strong>$75.00</strong></tr>
                         <tr>Size: L</tr>
                     </td>

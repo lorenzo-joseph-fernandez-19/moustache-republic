@@ -5,6 +5,14 @@ margin: 0;
 font-family: 'Open Sans', sans-serif;
 }
 
+table {
+    border-spacing: 1em .5em;
+}
+
+tr {
+    font-size: 13px;
+}
+
 .lines { 
  border-top: 1px solid #F6F6F7;
  border-bottom: 1px solid #F6F6F7;
@@ -16,25 +24,6 @@ font-family: 'Open Sans', sans-serif;
  padding-left: 250px;
  padding-right: 200px;
 }
-
-@media only screen and (max-width: 1200px) {
-    .flex-container {
-      flex-direction: column;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .flex-image {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .flex-description {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .cart-text {
-        margin-right: 0px;
-    }
-  }
 
 .flex-image {
  flex: 50%;
@@ -113,6 +102,12 @@ color: #C90000;
     background-color: transparent;
     border: 1px solid #CCCCCC;
     color: #CCCCCC;
+    cursor: pointer;
+}
+
+.size-button:active, .size-button:focus {
+    color:#222222;
+    border: 1px solid #222222;
 }
 
 .menu {
@@ -126,3 +121,28 @@ color: #C90000;
     padding: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .flex-container {
+      flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .flex-image {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .flex-description {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .cart-text {
+        margin-right: 20px;
+    }
+    .menu {
+        width: 80%;
+        right: 5%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+  }

@@ -3,6 +3,7 @@ import Image from "../images/classic-tee.jpg"
 import Menu from "../components/menu"
 import "../styles/mystyles.css"
 
+
 const productPage = () => {
 return (
   <div>
@@ -17,8 +18,8 @@ return (
           <p className="price">$75.00</p>
         </div>
         <p className="product-details">Dolor sit amet, consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra sunt. Quod autem ratione actum est, id officium appellamus dolor sit amet, consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra sunt. Quod autem ratione actum est, id officium appellamus</p>
-        <p className="product-details">SIZE<span className="red">*</span></p>
-        <button id="small" className="size-button" >S</button>
+        <p id="size" className="product-details">SIZE<span className="red">*</span></p>
+        <button id="small" className="size-button"> S</button>
         <button id="medium" className="size-button">M</button>
         <button id="large" className="size-button" >L</button>
         <br />
